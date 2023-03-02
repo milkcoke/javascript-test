@@ -7,6 +7,8 @@ describe('Bigint test', ()=>{
     const bigNum = BigInt(9007199254741091) // MAX_SAFE_INTEGER + 100, 9007199254741092n
     expect(bigNum).not.toBe(Number.MAX_SAFE_INTEGER + 100) // 9007199254741092n 1 오차 발생
   })
+
+  test("")
 })
 
 // Number.MAX_SAFE_INTEGER : 9007199254740991
